@@ -1,6 +1,6 @@
 <div [class.active]="isBtnActive" class="btn-wrapper">
   <a id="menu-toggle" class="btn btn-red toggle" (click)="toggleNavActive()" style="cursor: pointer;">
-    <i class="fa fa-bars"></i>
+    <i [class.fa-bars]="!isBtnActive" [class.fa-times]="isBtnActive" class="fa fa-bars"></i>
   </a>
 </div>
     <nav [class.active]="isNavActive" id="sidebar-wrapper" class="text-center">
