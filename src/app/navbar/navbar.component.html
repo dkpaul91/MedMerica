@@ -1,0 +1,31 @@
+<div [class.active]="isBtnActive" class="btn-wrapper">
+  <a id="menu-toggle" class="btn btn-red toggle" (click)="toggleNavActive()" style="cursor: pointer;">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    <nav [class.active]="isNavActive" id="sidebar-wrapper" class="text-center">
+        <ul class="sidebar-nav">
+            <!-- <a id="menu-close" href="#" class="btn btn-red pull-right toggle"><i class="fa fa-times"></i></a> -->
+            <li class="sidebar-brand">
+                <a>Menu</a>
+            </li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/']">Home</a>
+            </li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/about']">About us</a>
+            </li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/expressrefill']">Express Refill</a>
+            </li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/transferrefill']">Transfer a Refill</a>
+            </li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/services']">Services</a>
+            </li>
+            <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact: true}">
+                <a [routerLink]="['/contact']">Contact us</a>
+            </li>
+        </ul>
+    </nav>
