@@ -1,0 +1,35 @@
+.home-front {
+    border-radius: 0;
+    border: 5px solid #fff;
+    background: -webkit-linear-gradient(rgba(255, 255, 255, 0.7));
+    background: linear-gradient(rgba(255, 255, 255, 0.7));
+}
+
+.info-col-text {
+    word-spacing: 10px;
+    line-height: 25px;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .home-front {
+        width: 92%;
+        margin: 20px auto; 
+    }
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .home-front {
+        width: 70%;
+        margin: 20px auto;
+    }
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .home-front {
+        width: 60%;
+        margin: 100px auto;
+    }
+} 

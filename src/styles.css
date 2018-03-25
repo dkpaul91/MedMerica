@@ -8,3 +8,76 @@ body {
 body {
     font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.btn-warning.btn-transparent {
+    color: #f0ad4e;
+    background-color: transparent;
+    border-color: #f0ad4e;
+  }
+  .btn-warning.btn-transparent:focus, .btn-warning.btn-transparent.focus {
+    color: #f0ad4e;
+    background-color: transparent;
+    border-color: #b06d0f;
+  }
+  .btn-warning.btn-transparent:hover {
+    color: #f0ad4e;
+    background-color: transparent;
+    border-color: #eb9316;
+  }
+  .btn-warning.btn-transparent:active, .btn-warning.btn-transparent.active, .open > .btn-warning.btn-transparent.dropdown-toggle {
+    color: #f0ad4e;
+    background-color: transparent;
+    border-color: #eb9316;
+  }
+  .btn-warning.btn-transparent:active:hover, .btn-warning.btn-transparent:active:focus, .btn-warning.btn-transparent:active.focus, .btn-warning.btn-transparent.active:hover, .btn-warning.btn-transparent.active:focus, .btn-warning.btn-transparent.active.focus, .open > .btn-warning.btn-transparent.dropdown-toggle:hover, .open > .btn-warning.btn-transparent.dropdown-toggle:focus, .open > .btn-warning.btn-transparent.dropdown-toggle.focus {
+    color: #f0ad4e;
+    background-color: transparent;
+    border-color: #b06d0f;
+  }
+  .btn-warning.btn-transparent:active, .btn-warning.btn-transparent.active, .open > .btn-warning.btn-transparent.dropdown-toggle {
+    background-image: none;
+  }
+  .btn-warning.btn-transparent.disabled:hover, .btn-warning.btn-transparent.disabled:focus, .btn-warning.btn-transparent.disabled.focus, .btn-warning.btn-transparent[disabled]:hover, .btn-warning.btn-transparent[disabled]:focus, .btn-warning.btn-transparent[disabled].focus, fieldset[disabled] .btn-warning.btn-transparent:hover, fieldset[disabled] .btn-warning.btn-transparent:focus, fieldset[disabled] .btn-warning.btn-transparent.focus {
+    background-color: transparent;
+    border-color: #f0ad4e;
+  }
+  .btn-warning.btn-transparent .badge {
+    color: transparent;
+    background-color: #f0ad4e;
+  }
+  .btn-warning.btn-transparent:hover {
+    color: #f0ad4e;
+    background-color: #b06d0f;
+    border-color: #f0ad4e;
+  }
+  .btn-warning.btn-transparent:hover:focus, .btn-warning.btn-transparent:hover.focus {
+    color: #f0ad4e;
+    background-color: #81500b;
+    border-color: #b06d0f;
+  }
+  .btn-warning.btn-transparent:hover:hover {
+    color: #f0ad4e;
+    background-color: #81500b;
+    border-color: #eb9316;
+  }
+  .btn-warning.btn-transparent:hover:active, .btn-warning.btn-transparent:hover.active, .open > .btn-warning.btn-transparent:hover.dropdown-toggle {
+    color: #f0ad4e;
+    background-color: #81500b;
+    border-color: #eb9316;
+  }
+  .btn-warning.btn-transparent:hover:active:hover, .btn-warning.btn-transparent:hover:active:focus, .btn-warning.btn-transparent:hover:active.focus, .btn-warning.btn-transparent:hover.active:hover, .btn-warning.btn-transparent:hover.active:focus, .btn-warning.btn-transparent:hover.active.focus, .open > .btn-warning.btn-transparent:hover.dropdown-toggle:hover, .open > .btn-warning.btn-transparent:hover.dropdown-toggle:focus, .open > .btn-warning.btn-transparent:hover.dropdown-toggle.focus {
+    color: #f0ad4e;
+    background-color: #603b08;
+    border-color: #b06d0f;
+  }
+  .btn-warning.btn-transparent:hover:active, .btn-warning.btn-transparent:hover.active, .open > .btn-warning.btn-transparent:hover.dropdown-toggle {
+    background-image: none;
+  }
+  .btn-warning.btn-transparent:hover.disabled:hover, .btn-warning.btn-transparent:hover.disabled:focus, .btn-warning.btn-transparent:hover.disabled.focus, .btn-warning.btn-transparent:hover[disabled]:hover, .btn-warning.btn-transparent:hover[disabled]:focus, .btn-warning.btn-transparent:hover[disabled].focus, fieldset[disabled] .btn-warning.btn-transparent:hover:hover, fieldset[disabled] .btn-warning.btn-transparent:hover:focus, fieldset[disabled] .btn-warning.btn-transparent:hover.focus {
+    background-color: #b06d0f;
+    border-color: #f0ad4e;
+  }
+  .btn-warning.btn-transparent:hover .badge {
+    color: #b06d0f;
+    background-color: #f0ad4e;
+  }
